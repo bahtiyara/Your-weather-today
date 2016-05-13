@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Your weather today</title>
+	<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+
+	<div class="title"></div>
+
+	<div class="container">
+		<div class="logo"></div>
+
+		<div class="search-wrapper">
+			<input type="textbox" placeholder="Type your city ..." autofocus onfocus="clearField(this);">
+			<div class="search" onclick="eatFood()">
+				<i class="ic_search"></i>
+			</div>
+		</div>
+		
+		<h1>11 ℃</h1>
+		<p>Mostly Cloudy</p>
+	</div>
+
+	<h3>Thu, 12 May</h3>
+	
+
+	<script type="text/javascript">
+		function clearField(input) {
+		    input.value = "";
+		};
+
+		function eatFood() {
+			alert('you like food?');
+		}
+	</script>
+</body>
+</html>
