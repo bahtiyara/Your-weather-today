@@ -10,6 +10,26 @@ body{
 	background-color: #F8F8F8;
 }
 
+input::selection {
+  background: #E6E6E6;
+}
+
+h1::selection {
+  background: #E6E6E6;
+}
+
+h3::selection {
+  background: #E6E6E6;
+}
+
+p::selection {
+  background: #E6E6E6;
+}
+
+form::selection {
+  background: #E6E6E6;
+}
+
 .title{
 	width: 70%;
 	height: 100px;
