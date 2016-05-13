@@ -11,12 +11,12 @@
 	<div class="container">
 		<div class="logo"></div>
 
-		<div class="search-wrapper">
+		<form class="search-wrapper">
 			<input type="textbox" placeholder="Type your city ..." autofocus onfocus="clearField(this);">
-			<div class="search" onclick="eatFood()">
+			<button type="button" class="search">
 				<i class="ic_search"></i>
-			</div>
-		</div>
+			</button>
+		</form>
 		
 		<h1>11 ℃</h1>
 		<p>Mostly Cloudy</p>
@@ -28,10 +28,7 @@
 	<script type="text/javascript">
 		function clearField(input) {
 		    input.value = "";
-		};
-
-		function eatFood() {
-			alert('you like food?');
+		};t('you like food?');
 		}
 	</script>
 </body>
